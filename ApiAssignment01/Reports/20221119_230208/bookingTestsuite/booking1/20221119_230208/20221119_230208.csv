@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+booking1,,,,2022-11-19 23:02:21,2022-11-19 23:02:33,12.148s,ERROR
+,,,,,,,
+Test Cases/Booking/verifybooking,,testing positive data,create booking,2022-11-19 23:02:22,2022-11-19 23:02:27,5.246s,PASSED
+"response = sendRequest(findTestObject(""Booking/CreateAccessToken""))",,,,2022-11-19 23:02:23,2022-11-19 23:02:27,4.494s,PASSED
+"verifyResponseStatusCode(response, 200, STOP_ON_FAILURE)",,,,2022-11-19 23:02:27,2022-11-19 23:02:27,0.036s,PASSED
+,,,,,,,
+Test Cases/Booking/bookingcreate,,,,2022-11-19 23:02:32,2022-11-19 23:02:33,1.305s,ERROR
+"response = sendRequest(findTestObject(""Booking/CreateBooking""))",,,,2022-11-19 23:02:32,2022-11-19 23:02:33,1.263s,PASSED
+"verifyResponseStatusCode(findTestObject(response), 200)",,,,2022-11-19 23:02:33,2022-11-19 23:02:33,0.014s,ERROR

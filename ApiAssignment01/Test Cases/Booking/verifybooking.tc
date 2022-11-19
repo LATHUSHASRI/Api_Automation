@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>testing positive data</description>
+   <name>verifybooking</name>
+   <tag>create booking</tag>
+   <comment></comment>
+   <testCaseGuid>cacec22f-e676-4e8e-bc94-dd6389faf564</testCaseGuid>
+</TestCaseEntity>
